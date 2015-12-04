@@ -25,24 +25,23 @@ ul>li
   list-style-type:none;
   float:left;
 }
+
 div.content-top>div
 {
   width:49%;  
   display:inline-block;
-  padding-right:18.111%;
 }
 div.content-top>div>img
 {
-    //width:26.391%;
-    width:52.781%;
+    width:26.391%;
     float:right;
+    margin-right:18.111%;
 }
-
-
 div.content-top>ul
 {
   width:50%;
   display:inline-block;
+  padding-left: 5.8214%;
 }
 div.content-top>ul>li
 {
@@ -55,13 +54,121 @@ div.content-top>ul>li>a,div.content-top>ul>li>a>img
   width:100%;
   
 }
-
-
-
 div.content-banner>img.content-banner_si
 {
     width:100%;
 }
+img.content-banner_abso
+{ 
+   display:none;
+}
+input
+{
+  width :352px;
+  height : 36px;
+  border-style:solid;
+  border-color:#715595;
+  border-radius:2px;
+  font-family: Geneva;
+  font-size: 16px;
+  color: #999;
+  margin-right:13px;
+  float:left;
+}
+div.content-center>div>a
+{
+  display:inline-block;
+  height:36px;
+  width:152px;
+}
+div.content-center>div>a>img
+{
+  width:152px;
+  height:36px;
+}
+div.content-center>div>div>div
+{
+  width:230px;
+  text-align:center;
+  float:left;
+}
+div.content-center>div>div>div>p
+{
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    color: #222;   
+}
+div.content-center p.content-center__title
+{
+    font-family: "Myriad Pro";
+    font-size: 19px;
+    color: #222;
+    font-weight:bold;
+}
+div.content-near-footer
+{
+   height:275px;
+   background-color: #212121;
+}
+div.content-near-footer>div.content-near-footer_left
+{
+   display:inline-block;
+   width:49.5%;   
+   height:275px;
+}
+div.content-near-footer>div.content-near-footer_right
+{
+  display:inline-block;
+  width:49.5%;
+  height:275px;
+  padding-top:40px;
+}
+div.content-near-footer_right>ul
+{
+    display:block;
+    width:100%;
+    padding-left:271px;
+}
+div.content-near-footer_right>p
+{
+    font-family: Geneva;
+    font-size: 20px;
+    color: #fff; 
+    padding-left:271px;
+}
+div.content-near-footer_right>ul>li
+{
+   display:block;
+   float:none;
+   margin-bottom: 9px;
+   margin-top:9px;
+}
+div.content-near-footer_right>ul>li>a
+{
+   display:block;
+   text-decoration:none;
+   height:27px;
+   padding-left:40px;
+   padding-top:5px;
+   background-image: url(../img/facebook_bootom.jpg);
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   color:#fff;
+}
+div.content-footer
+{
+   height: 77px;
+   background-color: #7343af;
+   padding-left:304px;
+   padding-top:25px;
+}
+div.content-footer>p
+{
+   font-family: "Myriad Pro";
+   font-size: 19px;
+   color: #fff; 
+}
+    
 /*div.content-banner>img.content-banner_abso
 {
   position: absolute; 
@@ -69,4 +176,86 @@ div.content-banner>img.content-banner_si
   right:19.728%;
   top:14.5536%;
   display:none;
-}*/
+}/*
+@media only screen and (min-width: 768px) 
+{
+    div.content-top
+    {
+        padding-top:16px;   
+    }
+} */
+@media only screen and (min-width: 920px) 
+{
+    div.content-top
+    {
+        padding-top:8px; 
+        height: 117px;
+    }
+    div.content-top>div>img
+    {
+       width:206px;
+       height:73px;
+       margin:0px;
+       padding:0px;
+    }
+    div.content-top>div
+    {
+      padding-right:140px;   
+    }
+    img.content-banner_abso
+    { 
+        display:inline-block;
+        position: absolute;
+        width:349px;
+        height:452px;
+        top:226px;
+        right:306px;
+        z-index: 1000;
+    }
+    div.content-top>ul
+    {
+      padding-left:47px;
+    }
+    div.content-top>ul>li
+    {
+      width:51px;
+      height:51px;
+      margin:6px;
+    }
+    div.content-center
+    {
+      height:805px;
+      padding-top:190px;
+      padding-right:246px;
+    }
+    div.content-center>img
+    {
+      position:absolute;
+      left:0px;
+      bottom:85px;
+    }
+    div.content-center>div
+    {
+      display: inline-block;
+      width:710px;
+      float:right;
+      //clear: both;
+    }
+    div.content-center>div>h1
+    {
+        font-family:"Geneva";
+        font-size: 60px;
+        color:#222222;
+    }
+    div.content-center>div>h1>span
+    {
+        font-family: "Myriad Pro";
+	color: #7344b0;
+    }
+    div.content-center>div>p
+    {
+        font-family: Geneva;
+	font-size: 24px;
+	color: #222; 
+    }
+}
